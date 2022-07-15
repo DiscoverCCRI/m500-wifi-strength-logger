@@ -5,7 +5,7 @@ import csv
 from std_msgs.msg import String
 from pymavlink import mavutil
 
-log_path = 'sig_str_log_V2.csv'
+log_path = 'wifi_str_log.csv'
 csv_header = ['Uptime','Signal Strength (dBm)','Lat(deg)','Lon(deg)','Alt(m)','Vel(m/s)','fix type','H_acc(m)','V-acc(m)','Sats_Visible','eph','epv','cog','alt_ellipsoid','vel_acc (m/s)','hdg_acc','yaw']
 
 def loop():
