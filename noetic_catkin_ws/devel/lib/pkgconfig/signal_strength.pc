@@ -1,0 +1,8 @@
+prefix=/root/yoctohome/noetic_catkin_ws/devel
+
+Name: signal_strength
+Description: Description of signal_strength
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/yoctohome/noetic_catkin_ws/devel/setup.sh
