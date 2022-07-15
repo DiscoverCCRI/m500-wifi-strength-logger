@@ -21,5 +21,5 @@ With roscore running, you can then start the wifi-logger node:
 ```
 root@apq8096:~/yoctohome/sdcard/logs# rosrun signal_strength wifi-logger
 ```
-Once started, the wifi-logger node will publish RSSI wifi strength and GPS data to the rostopic wifi-logger/wifi-logs. The node will also start saving csv files containing more detailed information to whichever directory you invoke the rosrun command from. For more information on how the code works, see the comments in the wifi-logger.py file, located at m500-wifi-strength-logger/noetic_catkin_ws/src/signal_strength/scripts/wifi-logger.py
+Once started, the wifi-logger node will publish RSSI wifi strength and GPS data to the rostopic wifi-logger/wifi-logs. The node will also start saving csv files containing more detailed information to whichever directory you invoke the rosrun command from (which is why the above command is run from the mounted SDcard). For more information on how the code works, see the comments in the wifi-logger.py file, located at m500-wifi-strength-logger/noetic_catkin_ws/src/signal_strength/scripts/wifi-logger.py
 
