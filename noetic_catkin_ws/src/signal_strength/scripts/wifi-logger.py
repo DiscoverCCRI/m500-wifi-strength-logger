@@ -10,8 +10,8 @@ csv_header = ['Uptime','Signal Strength (dBm)','Lat(deg)','Lon(deg)','Alt(m)','V
 
 def loop():
     # Setup publisher node
-    rospy.init_node('signal_strength_pub', anonymous=True)
-    pub = rospy.Publisher('signal_strength_info', String, queue_size=10)
+    rospy.init_node('wifi-logger', anonymous=True)
+    pub = rospy.Publisher('wifi-logs', String, queue_size=10)
     
     # loop executes at 2 Hz (wifi strength command loses accuracy at rates higher than 2 Hz)
     rate = rospy.Rate(2) 
